@@ -1,0 +1,208 @@
+{
+  "name": "Home",
+  "components": [
+    {
+      "id": 2,
+      "name": "Header component",
+      "type": "header-component",
+      "version": "v2",
+      "data": {
+        "menu": [
+          {
+            "text": "Home",
+            "link": "/"
+          },
+          {
+            "text": "About Us",
+            "link": "/about-us"
+          },
+          {
+            "text": "Contact Us",
+            "link": "/contact-us"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "Announcement bar",
+      "type": "announcement-v1",
+      "version": "v2",
+      "data": {
+        "title": "New Arrival!",
+        "text": "Discover our latest products now!",
+        "button": {
+          "text": "View New Arrivals",
+          "link": "/new-arrivals"
+        },
+        "background": {
+          "image": "https://example.com/announcement-background.jpg",
+          "color": "#f0f0f0"
+        },
+        "textColor": "#000000",
+        "linkColor": "#007bff",
+        "show": true
+      }
+    },
+
+    {
+      "id": 2,
+      "name": "Main Banner",
+      "type": "banner-component",
+      "version": "v2",
+      "data": {
+        "title": "Banner Data",
+        "description": "Discover our new products now!",
+        "desktop": [
+          {
+            "title": "Welcome to our Homepage",
+            "url": "https://pinecart.blob.core.windows.net/6698ca86e9a228d1f6ef3bb2/a2936f8d317e0ad8b3f16bb925e23cfdc6f51dae.png",
+            "button": {
+              "text": "Visit Our Store",
+              "link": "/store"
+            }
+          }
+        ],
+        "mobile": [
+          {
+            "id": "66cf2327a9097e7689938fdc",
+            "title": "Mobile Banner Image",
+            "url": "https://pinecart.blob.core.windows.net/6698ca86e9a228d1f6ef3bb2/7a18677b2e03b1d8e0a033b328b13b61ecbae167.png",
+            "type": "image"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 3,
+      "name": "Services strip",
+      "type": "service-strip",
+      "version": "v2",
+      "data": {
+        "services": [
+          {
+            "id": "1",
+            "title": "Free Shipping",
+            "url": "https://pinecart.blob.core.windows.net/6698ca86e9a228d1f6ef3bb2/7a18677b2e03b1d8e0a033b328b13b61ecbae167"
+          },
+          {
+            "id": "2",
+            "title": "Discover Our Uniqueness",
+            "url": "https://pinecart.blob.core.windows.net/6698ca86e9a228d1f6ef3bb2/7a18677b2e03b1d8e0a033b328b13b61ecbae167"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 4,
+      "name": "Featured Collections",
+      "type": "featured-collections-component",
+      "version": "v2",
+      "data": {
+        "collections": [
+          {
+            "title": "Summer Collection",
+            "description": "Discover the latest products from our summer collection.",
+            "url": "/collections/summer"
+          },
+          {
+            "title": "Winter Collection",
+            "description": "Experience the beauty and warmth of our winter collection.",
+            "url": "/collections/winter"
+          }
+        ],
+        "button": {
+          "text": "View All Collections",
+          "link": "/collections"
+        }
+      }
+    },
+
+    {
+      "id": 5,
+      "name": "Featured Products",
+      "type": "featured-Products",
+      "version": "v2",
+      "data": {
+        "title": "Featured Products",
+        "description": "Discover our latest products.",
+        "products": [
+          {
+            "title": "Shirt",
+            "description": "Shirt from levis",
+            "url": "/collections/summer",
+            "price": "200"
+          },
+          {
+            "title": "Pants",
+            "description": "Pant from levis",
+            "url": "/collections/winter",
+            "price": "300"
+          }
+        ],
+        "button": {
+          "text": "See All Products",
+          "link": "/products"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "Image Banner",
+      "type": "image-banner",
+      "version": "v1",
+      "data": {
+        "title": "Featured Products",
+        "description": "Discover our latest products.",
+        "products": [
+          {
+            "title": "Shirt",
+            "description": "Shirt from levis",
+            "url": "/collections/summer",
+            "price": "200"
+          },
+          {
+            "title": "Pants",
+            "description": "Pant from levis",
+            "url": "/collections/winter",
+            "price": "300"
+          }
+        ],
+        "button": {
+          "text": "See All Products",
+          "link": "/products"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": "video Banner",
+      "type": "video-banner",
+      "version": "v1",
+      "data": {
+        "title": "Featured Products",
+        "description": "Discover our latest products.",
+        "products": [
+          {
+            "title": "Shirt",
+            "description": "Shirt from levis",
+            "url": "/collections/summer",
+            "price": "200"
+          },
+          {
+            "title": "Pants",
+            "description": "Pant from levis",
+            "url": "/collections/winter",
+            "price": "300"
+          }
+        ],
+        "button": {
+          "text": "See All Products",
+          "link": "/products"
+        }
+      }
+    }
+  ]
+}
